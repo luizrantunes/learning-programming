@@ -1,8 +1,8 @@
 # Quantos jogos consigo comprar? #
 
-Este programa informa a quantidade de jogos que o usuário pode comprar baseado no valor informado no campo de prompt.
+Este programa informa a quantidade de jogos que o usuário pode comprar baseado no valor informado.
 
-- O programa inicia usando a variável money para receber a entrada do valor informado pelo usuário;
+- O programa inicia usando a variável money para receber a entrada do valor informado pelo usuário através da função prompt;
 - Em seguida a variável gameQuantity pega o valor informado e faz a divisão por 100;
 - Feito a divisão, então utilizo a função Math.floor para arredondar o valor como inteiro para baixo, evitando assim que valores menores tragam resultados inteiros;
 - Também utilizo o document.getElementById para que possa imprimir o resultado na página HTML;

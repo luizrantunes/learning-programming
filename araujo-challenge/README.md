@@ -1,9 +1,10 @@
-# Treinamento de lógica - Desafio #
+<h1 align="center"> Treinamento de lógica - Desafio </h1>
 
-Este desafio foi proposto pelo Luiz Henrique Mariano de Araujo.
-
-"Escreva um algoritmo que imprima todas as subsequências não vazias de uma cadeia de caracteres ASCII dada.
-Por exemplo, as subsequências não vazias de ABC são A, B, C, AB, AC, BC e ABC."
+<p align="center">
+Este desafio foi proposto pelo Luiz Henrique Mariano de Araujo.<br/><br/>
+"Escreva um algoritmo que imprima todas as subsequências não vazias de uma cadeia de caracteres ASCII dada.<br/>
+Por exemplo, as subsequências não vazias de ABC são A, B, C, AB, AC, BC e ABC."<br/><br/>
+</p>
 
 - Começando o desafio na linha 2, aqui defino a função dizendo que ela recebe um valor como parametro;
 - Decido declarar algumas variáveis por fora e antes para ficar mais fácil o entendimento;

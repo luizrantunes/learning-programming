@@ -38,4 +38,4 @@ Esse projeto de aprendizado foi feito graças ao canal <a href="https://www.yout
 
 ---
 
-Feito com ♥ by Luiz Antunes :wave:
+Feito com ♥ by Luiz Antunes :thumbsup:

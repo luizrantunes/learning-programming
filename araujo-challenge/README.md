@@ -6,6 +6,10 @@ Este desafio foi proposto pelo Luiz Henrique Mariano de Araujo.<br/><br/>
 Por exemplo, as subsequências não vazias de ABC são A, B, C, AB, AC, BC e ABC."<br/><br/>
 </p>
 
+<p align="center">
+  <img alt="Preview" src="./images/preview.jpg">
+</p>
+
 - Começando o desafio na linha 2, aqui defino a função dizendo que ela recebe um valor como parametro;
 - Decido declarar algumas variáveis por fora e antes para ficar mais fácil o entendimento;
 - Assim, a variável é vazia porque ainda não sabe o valor que vai receber, porém, defini ela como string;

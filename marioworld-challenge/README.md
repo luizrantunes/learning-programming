@@ -13,7 +13,7 @@ Este código foi feito de maneira educacional e passado através do canal <a hre
 
 <p align="center">
   <img alt="Preview" src="./images/preview.jpg">
-</p><br/>
+</p>
 
 ## 🚀 Tecnologias
 

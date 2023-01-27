@@ -5,7 +5,7 @@ Este código foi feito de maneira educacional e passado através do canal <a hre
 </p>
 
 <p align="center">
-  <img alt="Preview" src="https://imgur.com/h88oGxp">
+  <img alt="Preview" src=".images/preview.jpg">
 </p><br/>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

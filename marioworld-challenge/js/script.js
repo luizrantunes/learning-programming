@@ -5,9 +5,7 @@ const jump = () => {
     mario.classList.add('jump');
 
     setTimeout(() => {
-
         mario.classList.remove('jump');
-
     }, 500);
 }
 
@@ -19,7 +17,7 @@ const loop = setInterval(() => {
     console.log(marioPosition)
     
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 90) {
-
+        
         pipe.style.animation ='none';
         pipe.style.left = `${pipePosition}px`
 
@@ -31,9 +29,7 @@ const loop = setInterval(() => {
         mario.style.marginLeft ='50px'
 
         clearInterval(loop);
-
     }
-
 }, 10);
 
 document.addEventListener('keydown', jump);

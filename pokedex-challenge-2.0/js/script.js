@@ -33,7 +33,6 @@ const renderPokemon = async (pokemon) => {
         pokemonName.innerHTML = data.name;
         pokemonNumber.innerHTML = data.id;
         pokemonType1.innerHTML = data['types']['0']['type']['name'];
-        pokemonType2.innerHTML = data['types']['1']['type']['name'];
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         input.value ='';
         searchPokemon = data.id;
@@ -45,6 +44,11 @@ const renderPokemon = async (pokemon) => {
         pokemonType2.innerHTML = '';
         input.value ='';
     }
+    /*if (otherType = true) {
+        pokemonType2.innerHTML = data['types']['1']['type']['name'];
+    }   else {
+        pokemonType2.innerHTML = '';
+    }*/
 }
 
 form.addEventListener('submit', (event) => {
@@ -60,7 +64,7 @@ buttonPrev.addEventListener('click', () => {
 })
 
 buttonNext.addEventListener('click', () => {
-    if(searchPokemon < 1008) {
+    if(searchPokemon < 649) {
         searchPokemon += 1;
         renderPokemon(searchPokemon);
     }

@@ -1,4 +1,4 @@
-<h1 align="center">Botões e Cursores - Rocketseat</h1>
+<h1 align="center"> Botões e Cursores - Rocketseat </h1>
 
 <p align="center">
 #boraCodar é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
@@ -22,6 +22,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- Figma
 
 ## 💻 Projeto
 

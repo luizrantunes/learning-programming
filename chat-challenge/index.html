@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/phosphor-icons"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div id="top">
+                <div id="user-info">
+                    <img src="./images/user.jpeg" alt="Carlos Aladin">
+                    <div id="user-status">
+                        <strong>Carlos Aladin</strong>
+                        <div class="status">
+                            Online
+                        </div>
+                    </div>
+                </div>
+                <div id="close-chat">
+                    <i class="ph-x"></i>
+                </div>
+            </div>
+            <div id="messages">
+                <div id="last-seen">Hoje 22:45</div>
+
+                <div class="messages">
+                    <div class="message">
+                        <div class="top">Carlos - 22:45</div>
+                        <div class="body">E ni</div>
+                    </div>
+                    <div class="message you">
+                        <div class="top">Você - 22:46</div>
+                        <div class="body">Fala</div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:49</div>
+                        <div class="body">
+                        E
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:49</div>
+                        <div class="body">
+                        Ni
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:49</div>
+                        <div class="body">
+                            Manda
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:49</div>
+                        <div class="body">
+                            Mais
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:50</div>
+                        <div class="body">
+                            Peps
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="top">Carlos - 22:50</div>
+                        <div class="body">
+                            😃
+                        </div>
+                    </div>
+                    <div class="message you">
+                        <div class="top">Você - 22:51</div>
+                        <div class="body">KKKKKKKKKKKKK</div>
+                    </div>
+                </div>
+            </div>
+            <form id="bottom">
+                <input type="text" placeholder="Digite sua mensagem">
+                <button>
+                    <i class="ph-paper-plane-right"></i>
+                </button>
+            </form>
+        </div>
+        <script>
+            const messages = document.querySelector('.messages')
+            messages.lastElementChild.scrollIntoView()
+        </script>
+    </body>
+</html>

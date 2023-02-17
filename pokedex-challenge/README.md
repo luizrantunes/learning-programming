@@ -11,9 +11,13 @@ Este código foi feito de maneira educacional e passado através do canal <a hre
   <a href="#memo-licença">Licença</a>
 </p>
 
+---
+
 <p align="center">
   <img alt="Preview" src="./images/preview.jpg">
 </p>
+
+---
 
 ## 🚀 Tecnologias
 

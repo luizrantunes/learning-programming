@@ -22,11 +22,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
+- API
 
 ## 💻 Projeto
 
 O objetivo do projeto foi montar uma pokédex funcional onde é possível pesquisar pelo Pokémon através do número da pokédex ou pelo nome.
-- [Acesse o projeto finalizado online](https://luizrantunes.github.io/learning-programming/pokedex-challenge)
+- [Acesse o projeto finalizado online](https://luizrantunes.github.io/learning-programming/pokedex-challenge-2.0)
 
 ## 🔖 Layout
 
